@@ -18,3 +18,4 @@ Watch the color sequence that plays.
 Click the buttons in the same order.
 With each correct level, the sequence grows longer.
 A wrong click ends the game. Try again and beat your high score!
+PlayGame(https://sindhuri-31.github.io/SimonGame/)  
