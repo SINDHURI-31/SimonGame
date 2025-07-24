@@ -69,7 +69,6 @@ function gameOver() {
         $("body").removeClass("game-over");
     }, 200)
     $(".level-title").html("gameover");
-    $(".score").text("High Score: 0").slideDown(500);
     $(".start-button").html("<h1 class='level-title'> ReStart</h1>").show();
     level = 1;
     length = 2;
