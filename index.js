@@ -67,8 +67,11 @@ function gameOver() {
     $("body").addClass("game-over");
     setTimeout(function () {
         $("body").removeClass("game-over");
-    }, 200)
-    $(".level-title").html("gameover");
+    }, 200);
+    setTimeout(function(){
+        $(".level-title").html("gameover");
+    },400);
+    $(".level-title").html("Level 1");
     $(".start-button").html("<h1 class='level-title'> ReStart</h1>").show();
     level = 1;
     length = 2;
